@@ -1,0 +1,136 @@
+{
+  "jobs": [
+    { "id": 1, "title": "Frontend Developer", "companyId": 1, "location": "Mountain View, CA", "type": "Full-time", "salary": "$120k - $150k", "skills": ["React", "JavaScript", "CSS"], "postedAt": "2 days ago" },
+    { "id": 2, "title": "Backend Engineer", "companyId": 2, "location": "Seattle, WA", "type": "Full-time", "salary": "$130k - $160k", "skills": ["Node.js", "Azure", "SQL"], "postedAt": "5 hours ago" },
+    { "id": 3, "title": "UI/UX Designer", "companyId": 3, "location": "Cupertino, CA", "type": "Contract", "salary": "$90/hr", "skills": ["Figma", "Prototyping"], "postedAt": "1 week ago" },
+    { "id": 4, "title": "React Native Developer", "companyId": 4, "location": "Remote", "type": "Full-time", "salary": "$140k - $170k", "skills": ["React Native", "Redux", "Mobile"], "postedAt": "3 days ago" },
+    { "id": 5, "title": "Full Stack Intern", "companyId": 5, "location": "Seattle, WA", "type": "Internship", "salary": "$8k/mo", "skills": ["Java", "React", "AWS"], "postedAt": "1 day ago" }
+  ],
+  "internships": [
+    { "id": 101, "title": "Software Engineering Intern", "companyId": 1, "location": "Remote", "type": "Internship", "stipend": "$7k/mo", "skills": ["Python", "Algorithms"] },
+    { "id": 102, "title": "Data Science Intern", "companyId": 2, "location": "On-site", "type": "Internship", "stipend": "$6k/mo", "skills": ["Machine Learning", "Python"] }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "name": "Google",
+      "industry": "Technology",
+      "location": "Mountain View, CA",
+      "rating": 4.8,
+      "openJobs": 142,
+      "employees": "100,000+",
+      "website": "https://careers.google.com",
+      "description": "Google is an American multinational technology company that focuses on search engine technology, online advertising, cloud computing, computer software, quantum computing, e-commerce, artificial intelligence, and consumer electronics.",
+      "hiringProcess": "Phone screen -> Technical Interview (Data Structures & Algorithms) -> System Design -> Behavioral (Googleyness) -> Team Matching.",
+      "openJobsList": [
+        { "id": 1, "title": "Frontend Developer", "type": "Full-time", "location": "Mountain View, CA" },
+        { "id": 2, "title": "UX Researcher", "type": "Contract", "location": "Remote" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Microsoft",
+      "industry": "Technology",
+      "location": "Redmond, WA",
+      "rating": 4.7,
+      "openJobs": 98,
+      "employees": "220,000+",
+      "website": "https://careers.microsoft.com",
+      "description": "Microsoft Corporation is an American multinational technology corporation which produces computer software, consumer electronics, personal computers, and related services.",
+      "hiringProcess": "Online Assessment -> Phone Screen -> Virtual Onsite (3-4 rounds covering coding, system design, and behavioral).",
+      "openJobsList": [
+        { "id": 3, "title": "Software Engineer", "type": "Full-time", "location": "Redmond, WA" },
+        { "id": 4, "title": "Product Manager", "type": "Full-time", "location": "Remote" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Amazon",
+      "industry": "E-commerce",
+      "location": "Seattle, WA",
+      "rating": 4.5,
+      "openJobs": 305,
+      "employees": "1,500,000+",
+      "website": "https://amazon.jobs",
+      "description": "Amazon is an American multinational technology company which focuses on e-commerce, cloud computing, digital streaming, and artificial intelligence.",
+      "hiringProcess": "Online Assessment -> Phone Interview -> Virtual Onsite (4-5 rounds focusing heavily on Leadership Principles).",
+      "openJobsList": [
+        { "id": 5, "title": "Backend Developer", "type": "Full-time", "location": "Seattle, WA" },
+        { "id": 6, "title": "Data Scientist", "type": "Full-time", "location": "New York, NY" }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "TCS",
+      "industry": "IT Services",
+      "location": "Mumbai, India",
+      "rating": 4.2,
+      "openJobs": 500,
+      "employees": "600,000+",
+      "website": "https://www.tcs.com/careers",
+      "description": "Tata Consultancy Services is an Indian multinational information technology services and consulting company.",
+      "hiringProcess": "Aptitude Test -> Technical Interview -> HR Interview.",
+      "openJobsList": [
+        { "id": 7, "title": "Java Developer", "type": "Full-time", "location": "Mumbai, India" },
+        { "id": 8, "title": "System Analyst", "type": "Full-time", "location": "Bangalore, India" }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Infosys",
+      "industry": "IT Services",
+      "location": "Bangalore, India",
+      "rating": 4.1,
+      "openJobs": 350,
+      "employees": "300,000+",
+      "website": "https://www.infosys.com/careers",
+      "description": "Infosys Limited is an Indian multinational information technology company that provides business consulting, information technology and outsourcing services.",
+      "hiringProcess": "Online Test (Aptitude & Logical) -> Technical Interview -> HR Interview.",
+      "openJobsList": [
+        { "id": 9, "title": "React Developer", "type": "Full-time", "location": "Pune, India" },
+        { "id": 10, "title": "Business Analyst", "type": "Full-time", "location": "Bangalore, India" }
+      ]
+    }
+  ],
+  "skills": [
+    { "id": 1, "category": "Frontend", "name": "React.js" },
+    { "id": 2, "category": "Backend", "name": "Node.js" },
+    { "id": 3, "category": "Database", "name": "MongoDB" }
+  ],
+  "users": [
+    { "id": 1, "name": "John Student", "role": "student", "email": "student@test.com" },
+    { "id": 2, "name": "Jane Recruiter", "role": "recruiter", "email": "recruiter@test.com" },
+    { "id": 3, "name": "Admin Boss", "role": "admin", "email": "admin@test.com" }
+  ],
+  "notifications": [
+    { "id": 1, "userId": 1, "message": "Google posted a new Frontend Role", "read": false },
+    { "id": 2, "userId": 1, "message": "Your application at Microsoft is In Review", "read": true }
+  ],
+  "roadmaps": [
+    {
+      "id": 1,
+      "title": "Frontend Developer",
+      "description": "Step by step guide to becoming a modern frontend developer.",
+      "steps": [
+        { "title": "Internet Basics", "desc": "How the internet works, HTTP, DNS.", "status": "completed" },
+        { "title": "HTML & CSS", "desc": "Semantic HTML, CSS basics, Flexbox, Grid.", "status": "completed" },
+        { "title": "JavaScript", "desc": "ES6+, DOM Manipulation, Fetch API.", "status": "in-progress" },
+        { "title": "Version Control Systems", "desc": "Git and GitHub.", "status": "pending" },
+        { "title": "React.js", "desc": "Hooks, Context API, React Router.", "status": "pending" },
+        { "title": "Tailwind CSS", "desc": "Utility-first styling.", "status": "pending" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Backend Developer",
+      "description": "Learn to build robust server-side applications.",
+      "steps": [
+        { "title": "Internet Basics", "desc": "How the internet works.", "status": "completed" },
+        { "title": "Learn a Language", "desc": "Node.js/Python/Go/Java.", "status": "pending" },
+        { "title": "Relational Databases", "desc": "PostgreSQL, MySQL.", "status": "pending" },
+        { "title": "NoSQL Databases", "desc": "MongoDB, Redis.", "status": "pending" },
+        { "title": "APIs", "desc": "REST, GraphQL, gRPC.", "status": "pending" }
+      ]
+    }
+  ]
+}
