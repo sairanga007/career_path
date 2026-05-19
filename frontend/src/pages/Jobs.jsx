@@ -106,40 +106,9 @@ const Jobs = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
-        {/* Filters Sidebar (Mock) */}
-        <div className="hidden lg:block lg:col-span-1 space-y-6">
-          <div className="card p-6">
-            <h3 className="font-bold text-slate-900 dark:text-white mb-4">Location</h3>
-            <div className="space-y-2">
-              <label className="flex items-center gap-2 text-slate-600 dark:text-slate-300">
-                <input type="checkbox" className="rounded text-primary-600" /> Remote
-              </label>
-              <label className="flex items-center gap-2 text-slate-600 dark:text-slate-300">
-                <input type="checkbox" className="rounded text-primary-600" /> On-site
-              </label>
-              <label className="flex items-center gap-2 text-slate-600 dark:text-slate-300">
-                <input type="checkbox" className="rounded text-primary-600" /> Hybrid
-              </label>
-            </div>
-            
-            <h3 className="font-bold text-slate-900 dark:text-white mt-6 mb-4">Experience Level</h3>
-            <div className="space-y-2">
-              <label className="flex items-center gap-2 text-slate-600 dark:text-slate-300">
-                <input type="checkbox" className="rounded text-primary-600" /> Entry Level
-              </label>
-              <label className="flex items-center gap-2 text-slate-600 dark:text-slate-300">
-                <input type="checkbox" className="rounded text-primary-600" /> Mid Level
-              </label>
-              <label className="flex items-center gap-2 text-slate-600 dark:text-slate-300">
-                <input type="checkbox" className="rounded text-primary-600" /> Senior Level
-              </label>
-            </div>
-          </div>
-        </div>
-
+      <div className="flex flex-col gap-8">
         {/* Job Listings */}
-        <div className="lg:col-span-3">
+        <div className="w-full">
           <div className="mb-4 text-sm text-slate-500 dark:text-slate-400">
             Showing {filteredJobs.length} results
           </div>
@@ -189,7 +158,7 @@ const Jobs = () => {
             </div>
           )}
         </div>
-        </div>
+      </div>
         </>
       )}
     </div>

@@ -32,8 +32,8 @@ const run = (name, command, args, cwd) => {
   return child;
 };
 
-// 1. Start JSON Server (Port 8000)
-run('JSON-Server', npxCmd, ['json-server', '--watch', 'db.json', '--port', '8000'], path.join(__dirname, '..'));
+// 1. Start JSON Server (Port 8000) — json-server v1+ watches by default
+run('JSON-Server', npxCmd, ['json-server', 'db.json', '--port', '8000'], path.join(__dirname, '..'));
 
 // 2. Start Backend (Port 5000)
 run('Backend', npmCmd, ['run', 'dev'], path.join(__dirname, '../backend'));
