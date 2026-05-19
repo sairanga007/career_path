@@ -36,7 +36,7 @@ const Navbar = () => {
           </div>
 
           <div className="flex items-center space-x-4">
-            <button 
+            <button
               onClick={toggleTheme}
               className="p-2 rounded-full hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors text-slate-600 dark:text-slate-300"
               aria-label="Toggle Dark Mode"
